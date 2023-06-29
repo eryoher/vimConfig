@@ -7,6 +7,8 @@ call plug#begin('~/.vim/plugged')
 	" post install (yarn install | npm install) then load plugin only for editing supported files
 	Plug 'prettier/vim-prettier', {'do': 'yarn install --frozen-lockfile --production','for': ['javascript', 'typescript', 'css', 'less', 'scss', 'json', 'graphql', 'markdown', 'vue', 'svelte', 'yaml', 'html'] }
 	Plug 'editorconfig/editorconfig-vim'
+  	Plug 'SirVer/ultisnips'
+  	Plug 'mlaursen/vim-react-snippets'
 
 	" tmux
 	Plug 'benmills/vimux'

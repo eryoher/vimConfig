@@ -228,3 +228,27 @@ let g:prettier#config#require_pragma = 'false'
 " defaut: 'lf'
 let g:prettier#config#end_of_line = get(g:, 'prettier#config#end_of_line', 'lf')
 let g:prettier#config#semi = 'false'
+
+"  ================================================================
+" UltiSnips
+" ================================================================
+let g:UltiSnipsExpandTrigger='<c-space>'
+let g:coc_global_extensions=[
+      \ 'coc-css',
+      \ 'coc-pairs',
+      \ 'coc-stylelintplus',
+      \ 'coc-cssmodules',
+      \ 'coc-docker',
+      \ 'coc-eslint',
+      \ 'coc-json',
+      \ 'coc-html',
+      \ 'coc-prettier',
+      \ 'coc-tsserver',
+      \ 'coc-yaml',
+      \ 'coc-vimlsp',
+      \ 'coc-spell-checker',
+      \ 'coc-snippets'
+      \ ]
+"  ================================================================
+" UltiSnips
+" ================================================================
