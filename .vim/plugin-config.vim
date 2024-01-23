@@ -247,7 +247,8 @@ let g:coc_global_extensions=[
       \ 'coc-yaml',
       \ 'coc-vimlsp',
       \ 'coc-spell-checker',
-      \ 'coc-snippets'
+      \ 'coc-snippets',
+      \ 'coc-angular'
       \ ]
 "  ================================================================
 " UltiSnips

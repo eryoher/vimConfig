@@ -118,3 +118,7 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 [[ $startup_cmd ]] && { declare +x $startup_cmd; history -s "$startup_cmd $startup_args"; eval "$startup_cmd $startup_args"; }
+
+
+# Load Angular CLI autocompletion.
+source <(ng completion script)
